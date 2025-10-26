@@ -19,4 +19,4 @@ Navigate to **S3** on the management console. Click **Create bucket**, Choose **
 ![Bucket](/Project%20documentation/screenshots/creating_bucket.png)
 
 Click **Create bucket** to create the bucket.
-![Bucket](/Project%20documentation/screenshots/create_bucket_2.png)
+![Bucket](/Project%20documentation/screenshots/create_bucket_2.png)2

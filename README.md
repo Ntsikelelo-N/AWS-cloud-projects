@@ -18,42 +18,42 @@ The use of AWS demonstrates production-grade, scalable pipelines.
 
 Included:
 
-Downloading YouTube trending data (from Kaggle/YouTube API).
+ - Downloading YouTube trending data (from Kaggle/YouTube API).
 
-Uploading raw data into AWS S3 buckets.
+ - Uploading raw data into AWS S3 buckets.
 
-Using AWS services: IAM, S3, Glue, Athena.
+ - Using AWS services: IAM, S3, Glue, Athena.
 
-Cleaning JSON data, converting to Parquet, partitioning by region.
+ - Cleaning JSON data, converting to Parquet, partitioning by region.
 
-Querying for insights using Athena.
+ - Querying for insights using Athena.
 
 ### Objectives
 
-Build a YouTube data lake architecture with raw & cleaned zones.
+ - Build a YouTube data lake architecture with raw & cleaned zones.
 
-Use AWS services to build a scalable ETL pipeline.
+ - Use AWS services to build a scalable ETL pipeline.
 
-Transform semi-structured JSON into tabular Parquet files.
+ - Transform semi-structured JSON into tabular Parquet files.
 
-Enable regional and categorical trend analysis.
+ - Enable regional and categorical trend analysis.
 
-Deliver a reproducible, cloud-based data pipeline.
+ - Deliver a reproducible, cloud-based data pipeline.
 
 ## Architecture / Design
 ### High-level Architecture
 
-Raw Zone: S3 bucket for unprocessed files.
+ - Raw Zone: S3 bucket for unprocessed files.
 
-Cleansed Zone: Parquet files in another S3 bucket.
+ - Cleansed Zone: Parquet files in another S3 bucket.
 
-Metadata Layer: AWS Glue Data Catalog.
+ - Metadata Layer: AWS Glue Data Catalog.
 
-Query Layer: Athena SQL queries.
+ - Query Layer: Athena SQL queries.
 
-Transformation Layer: AWS Lambda or Glue jobs for ETL.
+ - Transformation Layer: AWS Lambda or Glue jobs for ETL.
 
-Security: IAM roles and permissions.
+ - Security: IAM roles and permissions.
 
 ### Data Flow
 
@@ -84,6 +84,6 @@ Security: IAM roles and permissions.
 
 Prerequisites:
 
-AWS Account and permissions.
+ - AWS Account and permissions.
 
-AWS CLI installed and configured.
+ - AWS CLI installed and configured.
