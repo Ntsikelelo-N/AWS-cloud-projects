@@ -5,7 +5,7 @@ Open the AWS management console from your root user and create a user, by naviga
 For extra security, it is recommended to set up MFA device, which adds an additional layer of safety to keep your account safe.
 
 
-![S3 Buckets](/Project%20documentation/screenshots/IAM_user.png)
+![S3 Buckets](/End%20to%20end%20data%20engineering//Project%20documentation/screenshots/IAM_user.png)
 
 ## Download the AWS CLI
 Navigate to [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) to install/update your AWS CLI. This is going to be helpful to access the AWS services via management console.
@@ -16,7 +16,9 @@ When prompted for the region, you can look for region names on the management co
 
 ## Create S3 Buckets
 Navigate to **S3** on the management console. Click **Create bucket**, Choose **General purpose** write out <bucket_name>, this name has to be univerally unique from any other bucket names in the AWS. Leave other setting the same on the page. You can uncheck the **Block all public access** section if you want your bucket to be seen by others. You can enable bucket versioning if you require the bucket to keep track of changes made inside it.
-![Bucket](/Project%20documentation/screenshots/creating_bucket.png)
+![Bucket](/End%20to%20end%20data%20engineering//Project%20documentation/screenshots/creating_bucket.png)
 
 Click **Create bucket** to create the bucket.
-![Bucket](/Project%20documentation/screenshots/create_bucket_2.png)2
+![Bucket](/End%20to%20end%20data%20engineering//Project%20documentation/screenshots/create_bucket_2.png)
+
+## Upload data into the bucket
